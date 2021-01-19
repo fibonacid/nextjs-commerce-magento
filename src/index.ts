@@ -1,3 +1,3 @@
 console.log("hello");
 
-export const hello = "";
+export const hello = "hello";
