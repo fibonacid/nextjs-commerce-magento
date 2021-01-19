@@ -1,0 +1,9 @@
+{
+  "name": "nextjs-commerce-magento",
+  "version": "0.1.0",
+  "description": "Collection of hooks and data fetching functions to integrate Magento in a React application.",
+  "main": "index.js",
+  "repository": "git@github.com:lorenzorivosecchi/nextjs-commerce-magento.git",
+  "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
+  "license": "MIT"
+}
