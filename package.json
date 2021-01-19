@@ -5,5 +5,14 @@
   "main": "index.js",
   "repository": "git@github.com:lorenzorivosecchi/nextjs-commerce-magento.git",
   "author": "Lorenzo Rivosecchi <lorenzorivosecchi3@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.0"
+  }
 }
