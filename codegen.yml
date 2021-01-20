@@ -1,0 +1,10 @@
+overwrite: true
+schema: "https://magento.lacolonia.studio/graphql"
+documents: 
+  "src/api/**/*.tsx":
+    noRequire: true
+generates:
+  src/schema.d.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
