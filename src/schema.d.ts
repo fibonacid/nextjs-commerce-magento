@@ -6137,3 +6137,20 @@ export type ProductsFragment = (
     & Pick<ConfigurableProduct, 'name'>
   )>>> }
 );
+
+export type GetAllProductsQueryVariables = Exact<{
+  search?: Maybe<Scalars['String']>;
+  filter?: Maybe<ProductAttributeFilterInput>;
+  pageSize?: Maybe<Scalars['Int']>;
+  currentPage?: Maybe<Scalars['Int']>;
+  sort?: Maybe<ProductAttributeSortInput>;
+}>;
+
+
+export type GetAllProductsQuery = (
+  { __typename?: 'Query' }
+  & { products?: Maybe<(
+    { __typename?: 'Products' }
+    & ProductsFragment
+  )> }
+);
